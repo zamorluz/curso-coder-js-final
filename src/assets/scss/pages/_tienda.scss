@@ -1,0 +1,16 @@
+.imagen-producto {
+    background-size:cover;
+    background-position: center center;
+    width:100%;
+    padding-top:100%;
+    &.imagen-rueda-erizo {
+        background-image: url(../images/tienda/rueda-erizo.webp);
+    }
+    &.imagen-alimento-erizo {
+        background-image: url(../images/tienda/alimento-erizo.webp);
+    }
+    &.imagen-alimento-royal {
+        background-image: url(../images/tienda/royal-canin-performance-adult-cat.jpg);
+    }
+
+}

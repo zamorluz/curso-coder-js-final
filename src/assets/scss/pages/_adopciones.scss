@@ -1,0 +1,67 @@
+.imagen-animal {
+    background-size:cover;
+    background-position: center center;
+    width:100%;
+    padding-top:100%;
+    @media screen and (max-width: 480px) {
+        .imagen-animal {
+            max-width: 50%;
+        }
+    }
+    
+    
+
+
+    
+    &.imagen-animal-1 {
+        background-image: url(../images/bebe-erizo.jpeg);
+    }
+    &.imagen-animal-2 {
+        background-image: url(../images/erizo-arbol.jpeg);
+    }
+    &.imagen-animal-3 {
+        background-image: url(../images/erizo-bolita.jpeg);
+    }
+    &.imagen-animal-4{
+        background-image: url(../images/erizo-madera.jpg);
+    }
+
+    &.imagen-animal-5{
+        background-image: url(../images/erizo-manos.jpeg);
+    }
+
+    &.imagen-animal-6{
+        background-image: url(../images/roedor-1.jpeg);
+    }
+    &.imagen-animal-7{
+        background-image: url(../images/huron-.jpg);
+    }
+    &.imagen-animal-8{
+        background-image: url(../images/roedor-4-coba-2.jpeg);
+    }
+    &.imagen-animal-9{
+        background-image: url(../images/roedor-4-coba.jpeg);
+    }
+    &.imagen-animal-10{
+        background-image: url(../images/roedor-3-cone.jpeg);
+    }
+    &.imagen-animal-11{
+        background-image: url(../images/conejo-blanco.jpeg);
+    }
+    &.imagen-animal-12{
+        background-image: url(../images/erizo-verde.jpg);
+    }
+    &.imagen-animal-13{
+        background-image: url(../images/huron-blanc.jpg);
+    }
+    &.imagen-animal-14{
+        background-image: url(../images/huron-cargado.jpg);
+    }
+    &.imagen-animal-15{
+        background-image: url(../images/huron-pechera.jpg);
+    }
+    &.imagen-animal-16{
+        background-image: url(../images/huron-2.jpg);
+    }
+
+}

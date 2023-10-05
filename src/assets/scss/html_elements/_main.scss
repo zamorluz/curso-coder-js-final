@@ -1,0 +1,61 @@
+
+ 
+main {
+    // background-image: url(../images/rabbit-green.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+
+    &.main-home {
+        background-image: url(../images/rojo.jpg);
+    }
+    &.main-tienda{
+        background-image: url(../images/rojo.jpg);
+    }
+    &.main-adopciones{
+        background-image: url(../images/rojo.jpg);
+    }
+
+    &.main-nosotros{
+        background-image: url(../images/rojo.jpg);
+    }
+
+    &.main-contacto{
+        background-image: url(../images/rojo.jpg);
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:991px) { 
+
+    main{
+
+        &.main-tienda{
+            background-image: url(../images/erizo-sol.jpg);
+        }
+
+        &.main-home{
+            background-image: url(../images/huron-blanc.jpg);
+        }
+
+        &.main-nosotros{
+            background-image: url(../images/nepal-azul.jpg);
+        }
+
+        &.main-contacto{
+            background-image: url(../images/lake.jpg);
+        }
+
+        &.main-adopciones{
+            background-image: url(../images/rabbit-green.jpg);
+        }
+        
+
+
+
+    }
+
+    
+}
+
+
+
+

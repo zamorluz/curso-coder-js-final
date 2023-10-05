@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Erizo mundo">
+    <meta property="og:title" content="Erizo Mundo">
+    <meta property="og:description" content="Pagina de Conciencia de animales exóticos">
+    <meta property="og:url" content="https://zamorluz.com.ar">
+    <meta property="og:type" content="https://zamorluz.com.ar">
+    <meta property="og:image" content="https://zamorluz.com.ar/images/erizo-madera.jpg">
+    <meta property="og:locale" content="es_AR">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/47c34fefc4.js" crossorigin="anonymous"></script>
+    <script src="https://openexchangerates.github.io/money.js/money.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../../css/curso-coder.min.css">
+        <script src="../../js/curso-coder.min.js"></script> 
+        <title>Erizo Mundo | Erizo 1</title>
+</head>
+
+<body>
+    <header class="fixed-top bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-light" href="../../index.html">
+                    <h1 class="d-inline-block">Erizo Mundo  </h1> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link text-light" href="../nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link text-light" href="../tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../adopciones.html">Adopciones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart-modal">
+                       <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main class="main-tienda">
+        <section class="main-hero text-center p-5" id="main-hero">
+            <h3 class="animate__shakeY animate__animated p-5 m-5 animate__infinite text-white">Alimento para erizos</h3> 
+        </section>
+        <div class="row container m-auto">
+            <div class="col-4">
+                <div class=" bg-dark rounded-5 overflow-hidden">
+                    <div class=" imagen-producto imagen-alimento-erizo"></div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class=" bg-dark m-5 rounded-5 text-light overflow-hidden"  style="--bs-bg-opacity: .8;">
+                    <div class="p-5">
+                        <div class="p-2 text-light text-center ">Alimento para erizos</div>
+                        <div class="p-3 row">
+                            <div class="col-3 fw-bold">250 gr</div>
+                            <div class="col-9">Bajo en Grasas</div>
+                        </div>
+                        <div class="p-3 row">
+                            <div class="col-3 fw-bold">Contiene Tenebrios</div>
+                            <div class="col-9">Premium</div>
+                        </div>
+                        <div class="p-3 row">
+                            <div class="col-3 fw-bold">Precio</div>
+                            <div class="col-9">5 USD</div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-8">
+                            <button type="button" 
+                                data-cod="alimento-erizo"
+                                data-title="Alimento para erizos"
+                                data-type="product"
+                                data-price="5"
+                                data-image="http://localhost/images/tienda/alimento-erizo.webp"
+                                class="cart-add btn btn-primary w-100" ><div class="fa fa-shopping-cart"></div> 5 USD</button>
+                        </div>
+                        <div class="col-4">
+                            <a href="../tienda.html" class="btn btn-primary w-100">Volver a la tienda</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="bg-dark text-center">
+        <section class="footer-cta p-5 text-light">
+            Para saber lo que ofrecemos <a class="btn btn-primary  animate__animated animate__bounce animate__infinite"
+                href="./pages/tienda.html">Haz click aca</a>
+        </section>
+        <section class="footer-info container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3">
+                    <h2 class="text-white width-auto  animate__hinge">Erizo Mundo </h2>
+                    <h2 class="fs-2">Siguenos en nuestras redes sociales</h2>
+                    <ul class="list-unstyled row">
+                        <li class="col text-center"><a href="https://facebook.com"><i
+                                    class="fa-brands fa-facebook text-light d-inline-block"></i></a> </li>
+                        <li class="col text-center"><a href="https://instagram.com"><i
+                                    class="fa-brands fa-instagram text-light d-inline-block"></i></a> </li>
+                        <li class="col text-center"><a href="https://twitter.com"><i
+                                    class="fa-brands fa-twitter text-light d-inline-block"></i></a> </li>
+                        <li class="col text-center"><a href="https://linkedin.com"><i
+                                    class="fa-brands fa-linkedin text-light d-inline-block"></i></a> </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <ul class="list-unstyled">
+                        <li class="text-light">
+                            <a class="list-style-none text-light" href="../index.html">Home</a>
+                        </li>
+                        <li class="text-light">
+                            <a class="text-light" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class=" text-light">
+                            <a class="text-light" href="./pages/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-light" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="text-light">
+                            <a class="list-style-none text-light" href="./pages/adopciones.html">Adopciones</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1942364719225!2d-58.37735382437224!3d-34.59924957295584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb0b1afcaf%3A0x8d53a5cf4f399e9c!2zR2FsZXLDrWFzIFBhY8OtZmljbw!5e0!3m2!1ses-419!2sar!4v1685235382365!5m2!1ses-419!2sar"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="footer-copyright p-2 text-light bg-black">
+            &copy; 2023. Todos los derechos reservados
+        </section>
+    </footer>
+
+    <div class="modal fade " id="cart-modal" tabindex="-1" aria-labelledby="cart-modal-label" aria-hidden="true">
+        <div class="modal-dialog w-50 position-fixed top-0 end-0 ms-0 me-0 mw-100">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h1 class=" modal-title fs-5" id="cart-modal-label">Shopping cart</h1>
+                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="bg-primary text-white row border-1 border-primary border rounded">
+                        <div class="col-3 "></div>
+                        <div class="col-6 fs-4">
+                            Item
+                        </div>
+                        <div class="col-3 fs-4 border-start border-end-1 border-primary border-1">
+                            Precio
+                        </div>
+                    </div>
+                    <div id="cart-modal-items"></div>
+                    <div class="bg-primary text-white row border-1 border-primary border rounded">
+                        <div class="col-1 "></div>
+                        <div class="col-5">
+                        </div>
+                        <div class="col-3 border-start border-end-1 border-primary border-1">
+                            Total
+                        </div>
+                        <div id="cart-modal-total" class="col-3 border-start border-end-1 border-primary border-1"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="../carrito.html" class="block btn btn-primary">Ir al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
